@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1A1A1A"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⏰ Sleep Timer"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih masa:"
+        android:textColor="#00FFD5"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btn15"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="15 Minit"
+        android:textColor="#000000"
+        android:backgroundTint="#00FFD5"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn30"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="30 Minit"
+        android:textColor="#000000"
+        android:backgroundTint="#00FFD5"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btn60"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="1 Jam"
+        android:textColor="#000000"
+        android:backgroundTint="#00FFD5"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Batalkan Timer"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#333333"/>
+
+</LinearLayout>

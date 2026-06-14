@@ -1,0 +1,561 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 44,
+          "index": 6253,
+          "line": 169
+        },
+        "start": {
+          "column": 44,
+          "index": 6253,
+          "line": 169
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 13544,
+          "line": 376
+        },
+        "start": {
+          "column": 1,
+          "index": 13544,
+          "line": 376
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/RadioService.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 11168,
+          "line": 357
+        },
+        "start": {
+          "column": 1,
+          "index": 11168,
+          "line": 357
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/WaveformView.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 2355,
+          "line": 100
+        },
+        "start": {
+          "column": 1,
+          "index": 2355,
+          "line": 100
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/gradient_bg.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 268,
+          "line": 7
+        },
+        "start": {
+          "column": 8,
+          "index": 268,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/circle_bg.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 250,
+          "line": 7
+        },
+        "start": {
+          "column": 8,
+          "index": 250,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/circle_play.xml",
+      "selection": {
+        "end": {
+          "column": 11,
+          "index": 525,
+          "line": 14
+        },
+        "start": {
+          "column": 11,
+          "index": 525,
+          "line": 14
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/glow_ring.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 254,
+          "line": 7
+        },
+        "start": {
+          "column": 8,
+          "index": 254,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 11,
+          "index": 2463,
+          "line": 64
+        },
+        "start": {
+          "column": 11,
+          "index": 2463,
+          "line": 64
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 58,
+          "index": 4123,
+          "line": 125
+        },
+        "start": {
+          "column": 58,
+          "index": 4123,
+          "line": 125
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/values/styles.xml",
+      "selection": {
+        "end": {
+          "column": 12,
+          "index": 128,
+          "line": 3
+        },
+        "start": {
+          "column": 12,
+          "index": 128,
+          "line": 3
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/values-night/styles.xml",
+      "selection": {
+        "end": {
+          "column": 12,
+          "index": 505,
+          "line": 10
+        },
+        "start": {
+          "column": 12,
+          "index": 505,
+          "line": 10
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/values/colors.xml",
+      "selection": {
+        "end": {
+          "column": 12,
+          "index": 324,
+          "line": 8
+        },
+        "start": {
+          "column": 12,
+          "index": 324,
+          "line": 8
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/MetadataFetcher.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 4859,
+          "line": 151
+        },
+        "start": {
+          "column": 1,
+          "index": 4859,
+          "line": 151
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/AiChatActivity.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 5917,
+          "line": 170
+        },
+        "start": {
+          "column": 1,
+          "index": 5917,
+          "line": 170
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/layout/activity_ai_chat.xml",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 2305,
+          "line": 71
+        },
+        "start": {
+          "column": 15,
+          "index": 2305,
+          "line": 71
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/input_bg.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 276,
+          "line": 6
+        },
+        "start": {
+          "column": 8,
+          "index": 276,
+          "line": 6
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/menu/nav_menu.xml",
+      "selection": {
+        "end": {
+          "column": 7,
+          "index": 2396,
+          "line": 75
+        },
+        "start": {
+          "column": 7,
+          "index": 2396,
+          "line": 75
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/SleepTimerDialog.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 2833,
+          "line": 100
+        },
+        "start": {
+          "column": 1,
+          "index": 2833,
+          "line": 100
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/layout/dialog_sleep_timer.xml",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 2035,
+          "line": 64
+        },
+        "start": {
+          "column": 15,
+          "index": 2035,
+          "line": 64
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/EqualizerActivity.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 4482,
+          "line": 122
+        },
+        "start": {
+          "column": 1,
+          "index": 4482,
+          "line": 122
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/layout/activity_equalizer.xml",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 2671,
+          "line": 76
+        },
+        "start": {
+          "column": 15,
+          "index": 2671,
+          "line": 76
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/UpdateChecker.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 5724,
+          "line": 168
+        },
+        "start": {
+          "column": 1,
+          "index": 5724,
+          "line": 168
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/xml/provider_paths.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 123,
+          "line": 5
+        },
+        "start": {
+          "column": 8,
+          "index": 123,
+          "line": 5
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/layout/nav_header.xml",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 1085,
+          "line": 34
+        },
+        "start": {
+          "column": 15,
+          "index": 1085,
+          "line": 34
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/circle_play_green.xml",
+      "selection": {
+        "end": {
+          "column": 11,
+          "index": 557,
+          "line": 16
+        },
+        "start": {
+          "column": 11,
+          "index": 557,
+          "line": 16
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/circle_bg_green.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 250,
+          "line": 7
+        },
+        "start": {
+          "column": 8,
+          "index": 250,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/glow_ring_green.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 254,
+          "line": 7
+        },
+        "start": {
+          "column": 8,
+          "index": 254,
+          "line": 7
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/activity_splash.xml",
+      "selection": {
+        "end": {
+          "column": 17,
+          "index": 1787,
+          "line": 53
+        },
+        "start": {
+          "column": 17,
+          "index": 1787,
+          "line": 53
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/layout/activity_splash.xml",
+      "selection": {
+        "end": {
+          "column": 17,
+          "index": 1733,
+          "line": 51
+        },
+        "start": {
+          "column": 17,
+          "index": 1733,
+          "line": 51
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/values/themes.xml",
+      "selection": {
+        "end": {
+          "column": 26,
+          "index": 817,
+          "line": 20
+        },
+        "start": {
+          "column": 26,
+          "index": 817,
+          "line": 20
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/splash_branding.xml",
+      "selection": {
+        "end": {
+          "column": 13,
+          "index": 535,
+          "line": 17
+        },
+        "start": {
+          "column": 13,
+          "index": 535,
+          "line": 17
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/SplashActivity.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 1006,
+          "line": 34
+        },
+        "start": {
+          "column": 1,
+          "index": 1006,
+          "line": 34
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/java/com/radio/geminifm/RadioWidget.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 4589,
+          "line": 133
+        },
+        "start": {
+          "column": 1,
+          "index": 4589,
+          "line": 133
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/layout/widget_radio.xml",
+      "selection": {
+        "end": {
+          "column": 15,
+          "index": 1843,
+          "line": 57
+        },
+        "start": {
+          "column": 15,
+          "index": 1843,
+          "line": 57
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/drawable/widget_bg.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 296,
+          "line": 8
+        },
+        "start": {
+          "column": 8,
+          "index": 296,
+          "line": 8
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/xml/widget_info.xml",
+      "selection": {
+        "end": {
+          "column": 48,
+          "index": 471,
+          "line": 11
+        },
+        "start": {
+          "column": 48,
+          "index": 471,
+          "line": 11
+        }
+      }
+    }
+  ],
+  "projectPath": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM",
+  "selectedFile": "/storage/emulated/0/CodeOnTheGoProjects/GeMiniFM/app/src/main/res/xml/widget_info.xml"
+}

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="#CC000000"
+            android:elevation="4dp"
+            app:title="📻 GeMiniFm"
+            app:titleTextColor="#00FF88"/>
+
+        <!-- Player centre -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingBottom="32dp">
+
+            <!-- Logo -->
+            <FrameLayout
+                android:layout_width="160dp"
+                android:layout_height="160dp">
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/glow_ring_green"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:id="@+id/logoImg"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:background="@drawable/circle_bg_green"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"/>
+
+            </FrameLayout>
+
+            <!-- Waveform -->
+            <com.radio.geminifm.WaveformView
+                android:id="@+id/waveformView"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"/>
+
+            <!-- Nama stesen -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GeMiniFm"
+                android:textColor="#FFFFFF"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Radio Online Malaysia"
+                android:textColor="#446644"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="50dp"
+                android:layout_height="2dp"
+                android:background="#00FF88"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Status -->
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFFLINE"
+                android:textColor="#00FF88"
+                android:textSize="13sp"
+                android:textStyle="bold"/>
+
+            <!-- Artist -->
+            <TextView
+                android:id="@+id/artistText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#668866"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Song -->
+            <TextView
+                android:id="@+id/songText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#CCCCCC"
+                android:textSize="13sp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
+
+            <!-- Play Button -->
+            <FrameLayout
+                android:layout_width="86dp"
+                android:layout_height="86dp"
+                android:layout_marginTop="28dp">
+
+                <ImageView
+                    android:id="@+id/btnGlow"
+                    android:layout_width="86dp"
+                    android:layout_height="86dp"
+                    android:background="@drawable/glow_ring_green"
+                    android:layout_gravity="center"
+                    android:visibility="gone"/>
+
+                <ImageButton
+                    android:id="@+id/playBtn"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:background="@drawable/circle_play_green"
+                    android:src="@android:drawable/ic_media_play"
+                    android:padding="18dp"
+                    android:layout_gravity="center"
+                    android:elevation="6dp"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!-- Navigation Drawer -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#0A1A0A"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        app:itemTextColor="#FFFFFF"
+        app:itemIconTint="#00FF88"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

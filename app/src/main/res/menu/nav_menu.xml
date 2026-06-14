@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="GeMiniFm"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="About Us"/>
+
+        <item
+            android:id="@+id/nav_ai"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="🤖 AI Assistant"/>
+
+        <item
+            android:id="@+id/nav_equalizer"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="🎚 Equalizer"/>
+
+        <item
+            android:id="@+id/nav_sleep"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="⏰ Sleep Timer"/>
+
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="Call Us"/>
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="E-mail"/>
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="Website"/>
+        </menu>
+    </item>
+
+    <item android:title="Like and Follow Us">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Facebook"/>
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@android:drawable/ic_menu_camera"
+                android:title="Instagram"/>
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share App"/>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@android:drawable/btn_star"
+                android:title="Rate App"/>
+        </menu>
+    </item>
+
+</menu>

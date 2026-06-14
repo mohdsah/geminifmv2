@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme utama app -->
+    <style name="Theme.GeMiniFm"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#00FF88</item>
+        <item name="colorPrimaryDark">#00CC66</item>
+        <item name="colorAccent">#00FF88</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+
+    <!-- Splash Screen theme -->
+    <style name="Theme.GeMiniFm.Splash"
+        parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#050F05</item>
+        <item name="windowSplashScreenAnimatedIcon">
+            @mipmap/ic_launcher</item>
+        <item name="windowSplashScreenIconBackgroundColor">
+            #0A1A0A</item>
+        <item name="postSplashScreenTheme">
+            @style/Theme.GeMiniFm</item>
+    </style>
+
+</resources>
